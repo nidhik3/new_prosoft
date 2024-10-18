@@ -12,60 +12,41 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
-<body>
+<body>   
 
   <!-- ======= Header ======= -->
   <!-- Menu Start -->
   <header class="header-primary">
       <div class="container">
         <nav class="navbar navbar-expand-xl justify-content-between">
-          <a href="index.html">
+          <a href="main">
             <img src="assets/img/logo/logo-m.svg" alt="" />
           </a>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto">
+            <ul class="navbar-nav">
               <li class="d-block d-xl-none">
                 <div class="logo">
-                  <a href="index.html"
-                    ><img src="assets/img/logo/logo-m.svg" alt=""
+                  <a href="main"
+                    ><img src="assets/image/logo.png" alt=""
                   /></a>
                 </div>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  data-bs-auto-close="outside"
-                  aria-expanded="false"
-                  >Home</a
-                >
-                <div class="dropdown-menu">
-                  <div class="d-flex flex-column flex-xl-row">
-                    <ul>
-                      <li>
-                        <a href="index.html" class="dropdown-item"
-                          ><span>Home Main</span></a
-                        >
-                      </li>
-
-                      <li>
-                        <a href="index-2.html" class="dropdown-item"
-                          ><span>Home Two</span></a
-                        >
-                      </li>
-                    </ul>
-                  </div>
+               <li class="d-flex align-items-center ">
+                <div class="logo">
+                  <a href="main"
+                    ><img src="assets/image/logo.png" alt=""
+                  /></a>
                 </div>
               </li>
+              
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
+                <a class="nav-link" href="main">Home</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" href="about">About Us</a>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
-              </li>
+           
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -74,42 +55,22 @@
                   data-bs-toggle="dropdown"
                   data-bs-auto-close="outside"
                   aria-expanded="false"
-                  >Pages</a
+                  >Services</a
                 >
                 <ul class="dropdown-menu">
                   <li>
-                    <a href="services-details.html" class="dropdown-item"
-                      ><span>Service Details</span></a
+                    <a href="blog.html" class="dropdown-item"
+                      ><span>Blog</span></a
                     >
                   </li>
                   <li>
-                    <a href="features.html" class="dropdown-item"
-                      ><span>Features</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="prices.html" class="dropdown-item"
-                      ><span>Pricing</span></a
-                    >
-                  </li>
-
-                  <li>
-                    <a href="404.html" class="dropdown-item"
-                      ><span>404 Page</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="signin.html" class="dropdown-item"
-                      ><span>Signin Page</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="signup.html" class="dropdown-item"
-                      ><span>Signup Page</span></a
+                    <a href="blog-details.html" class="dropdown-item"
+                      ><span>Blog Details</span></a
                     >
                   </li>
                 </ul>
               </li>
+           
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"

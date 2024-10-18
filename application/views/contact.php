@@ -1,4 +1,4 @@
-<!-- contact -->
+    <!-- contact -->
 <section class="noBottom"
     style="background-image: url('assets/img/bg.png'); max-width: 100%; background-repeat: no-repeat;">
     <div class="container">
