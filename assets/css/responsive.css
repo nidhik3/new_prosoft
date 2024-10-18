@@ -1,0 +1,131 @@
+@media (max-width: 767.98px) {
+
+	.space {
+		padding: 49px 0;
+		overflow: hidden;
+	}
+
+	.space-x {
+		padding: 0 20px;
+	}
+
+	.container {
+		width: 100%;
+		/* Full width for mobile */
+		/* padding: 0 15px;  */
+	}
+
+	.col-md-6,
+	.col-md-12 {
+		flex: 0 0 100%;
+		/* Full width columns */
+		max-width: 100%;
+		/* Full width columns */
+	}
+
+
+	.t1 {
+		font-size: 32px;
+	}	
+	.dw {
+		font-size:18px !important;
+	}
+	.practise1 {
+		
+		height: 111vh;
+	}
+
+	.img1 img {
+		height: 491px;
+		/* object-fit: cover;    */
+	}
+
+	.txt4 {
+		padding: 0px 20px;
+		width: 60%;
+	}
+	.txt4 .pg{
+		display: none;
+	}
+
+	.application {
+		display: none !important;
+	}
+
+	.ic1,
+	.ic2,
+	.ic3,
+	.ic4 , .eicon1, .eicon2{
+		display: none !important;
+	}
+
+	.ci {
+		height: 270px;
+	}
+	.txt1 {
+		background-color:rgb(243 247 248);
+		top: 0%;
+		left: 0%;
+		
+	}
+	.phone1 {
+	
+		margin-right: -65px !important;
+	}
+
+	footer .side{
+		display: none !important;
+	}
+
+	#footer .footer-top{
+		padding: 0;
+	}
+
+
+	.mission {
+		top: 7% !important;
+    left: 2%  !important;
+		width: 57%;
+	}
+	.vision {
+		top: 50% !important;
+		right: -2%!important;
+		width: 57%;
+	}
+	.mission .ppara{
+		font-size: 12px;
+	}
+.vision .ppara{
+		font-size: 12px;
+	}
+	.t2{
+		font-size: 21px;
+		margin: 0;
+	}
+
+	.card1 {
+		min-height: 80vh;
+	}
+
+	.gradientb-nav {
+		height: 7vh;
+		background: linear-gradient(90deg, #14D5A9 0%, #1179C4 100%);
+		color: white !important;
+		display: flex !important;
+		align-items: center !important;
+		text-align: center;
+		justify-content: center !important;
+		/* font-weight: 500; */
+		padding: 5px 15px;
+		font-size: 13px;
+		border-radius: 20px;
+		width: 58%;
+	}
+	.gradientb {
+		display: none !important;
+	 }
+	 .transparent-white ,.join-us , .light-blue, .black , .transparent{
+		height: 5vh !important;
+	}
+
+}
