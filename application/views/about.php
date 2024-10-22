@@ -125,15 +125,15 @@
     <section class="top1 py-5 my-5" style="background-color:#6b7378;">
         <div class="" style="max-width: 90%;margin:auto;">
             <div class="row d-flex justify-content-around">
-                <div class="col-md-3">
+                <div class="col-md-3  text-center">
                     <h1 class="gradient-text" style="font-weight:800;">65</h1>
                     <h4 style="color:#212529;font-weight:500;">Happy Clients</h4>
                 </div>
-                <div class="col-md-3 ">
+                <div class="col-md-3  text-center">
                     <h1 class="gradient-text" style="font-weight:800;">85</h1>
                     <h4 style="color: #212529;font-weight:500;">Projects</h4>
                 </div>
-                <div class="col-md-3 ">
+                <div class="col-md-3  text-center">
                     <h1 class="gradient-text" style="font-weight:800;">18</h1>
                     <h4 style="color:#212529;font-weight:500;">Years of <br>
                         experience</h4>

@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="assets/css/glightbox-min.css" />
   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -76,16 +77,16 @@
                   aria-expanded="false">Product</a>
                 <ul class="dropdown-menu">
                   <li><a href="Product1">HOSPITAL MANAGEMENT SYSTEM (ANGLEPRO HIS)</a></li>
-                  <li><a href="Product2">CLINIC MANAGEMENT SYSTEM (ANGLEPRO CMS) </a></li>
-                  <li><a href="Product3">LAB INFORMATION SYSTEM (ANGLEPRO LIS) </a></li>
-                  <li><a href="Product4">PHARMACY MANAGEMENT SYSTEM (ANGLEPRO PMS) </a></li>
-                  <li><a href="Product5">DOCUMENT MANAGEMENT SYTEM (ANGLEPRO DMS)</a></li>
-                  <li><a href="Product6">RADIOLOGY INFORMATION SYSTEM (ANGLEPRO RIS) </a></li>
-                  <li><a href="Product7">CLAIMS SUBMISSION MANAGEMENT SYSTEM (ANGLEPRO CSMS)</a></li>
-                  <li><a href="Product8">ERP (ANGLEPRO ERP)</a></li>
-                  <li><a href="Product9">MOBILE SOLUTIONS</a></li>
-                  <li><a href="Product10">KIOSK SOLUTIONS</a></li>
-                  <li><a href="Product11">THIRD PARTY INTEGRATIONS</a></li>
+                  <li><a href="Product1">CLINIC MANAGEMENT SYSTEM (ANGLEPRO CMS) </a></li>
+                  <li><a href="Product1">LAB INFORMATION SYSTEM (ANGLEPRO LIS) </a></li>
+                  <li><a href="Product1">PHARMACY MANAGEMENT SYSTEM (ANGLEPRO PMS) </a></li>
+                  <li><a href="Product1">DOCUMENT MANAGEMENT SYTEM (ANGLEPRO DMS)</a></li>
+                  <li><a href="Product1">RADIOLOGY INFORMATION SYSTEM (ANGLEPRO RIS) </a></li>
+                  <li><a href="Product1">CLAIMS SUBMISSION MANAGEMENT SYSTEM (ANGLEPRO CSMS)</a></li>
+                  <li><a href="Product1">ERP (ANGLEPRO ERP)</a></li>
+                  <li><a href="Product1">MOBILE SOLUTIONS</a></li>
+                  <li><a href="Product1">KIOSK SOLUTIONS</a></li>
+                  <li><a href="Product1">THIRD PARTY INTEGRATIONS</a></li>
                 </ul>
               </li>
               <!-- <li class="nav-item">
