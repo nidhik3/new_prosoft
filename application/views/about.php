@@ -1,185 +1,473 @@
-<!-- <section   style="background-image: url('assets/img/bg.png'); max-width: 100%; background-repeat: no-repeat;height:90vh; ">
-<div class=" d-flex justify-content-center align-items-center container space" style="padding-top: 40vh;">
-    <h1>COMING SOON</h1>
-</div>
-</section> -->
-<style>
-    .line {
-        font-size: 13px;
-    }
-
-    .phone1 {
-        z-index: 2;
-        margin-right: -30px;
-        /* Adjust this value to control overlap */
-
-    }
-
-    .phone2 {
-        z-index: 1;
-        margin-left: -20px;
-        /* Adjust this value to bring phone2 over phone1 */
-    }
-    .integrated{
-        position:relative
-    }
-    .eicon1 {
-        position: absolute;
-        top: 50%;
-        left: 10%;
-    }
-
-    .eicon2 {
-        position: absolute;
-        top: 50%;
-        right: 10%;
-    }
-    .mi-vi{
-        position:relative
-    }
-    .mission {
-        position: absolute;
-    top: 15%;
-    left: 10%;
-    }
-    .vision{
-        position: absolute;
-        top: 50%;
-        right: 10%;
-    }
-</style>
-
-<!-- banner -->
-<section>
-    <div class="container py-5">
-        <div class="row d-flex justify-content-center pt-3">
-            <div class="col-md-3 col-7">
-                <img src="assets/img/about-logo.png" alt="">
-            </div>
-
-        </div>
-    </div>
-    <div class="container">
-        <div class="row  d-flex justify-content-center">
-            <div class="col-md-10 text-center">
-                <p>Aesthetics AI is India’s first Ai agent driven clinic management suite. Specifically designed for Dentists, Dermatologists and cosmetologists. We are fully committed to betterment of patients and doctors. We are the only one industry to ensure data privacy of each patient by white labelling our solution. All medical records of patients are stored, encrypted and never access by us. It remains with the consulting clinic.</p>
-            </div>
-        </div>
-    </div>
-    <div class="row  d-flex justify-content-center  align-items-center">
-
-        <div class="col-md-4 ">
-            <hr>
-        </div>
-        <div class="col-md-4 text-center">
-            <p class="line m-0">We ensure the partner clinic’s grow and build a brand for themselves.</p>
-        </div>
-        <div class="col-md-4">
-            <hr>
-        </div>
-    </div>
-
-</section>
-<!-- banner -->
-
-<!-- Explore -->
-<section class="pt-5">
-    <div class="bg" style="background-image: url('assets/img/about-banner.png'); max-width: 100%; background-repeat: no-repeat;height:110vh;">
-        <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-md-5 text-center">
-                <p class="t1">Explore our <br>
-                    Integrated Marketplace.</p>
-            </div>
-        </div>
-
-        <div class="row space-x pt-5 d-flex justify-content-center integrated" >
-            <div class="col-md-3 d-flex justify-content-center">
-                <img src="assets/img/phone1.png" alt="Phone 1" class="phone1">
-                <img src="assets/img/phone2.png" alt="Phone 2" class="phone2">
-                <div class="eicon1 ">
-                    <div class="row d-flex">
-                        <div class="col-md-2">
-                            <img src="assets/img/eicon1.png" alt="">
-                        </div>
-                        <div class="col-md-5">
-                            <p>Shop Your Prescription</p>
-                        </div>
-
+<main class="wrapper">
+    <!-- Breadcrumb Start -->
+    <section
+        class="aai-breadcrumb"
+        style="
+          background: url('assets/img/bg/bread-crumb-bg.jpeg') no-repeat center
+            center/cover;
+        ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <div class="text-center">
+                        <h2 class="aai-page-title">About Us</h2>
+                        <ul
+                            class="aai-breadcrumb-nav d-flex align-items-center justify-content-center">
+                            <li>
+                                <a
+                                    href=""
+                                    class="aai-breadcrumb-link text-decoration-underline">Home</a>
+                            </li>
+                            <li>
+                                <svg
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14 16L18 12M18 12L14 8M18 12L6 12"
+                                        stroke="#DADADA"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </li>
+                            <li>
+                                <a href="" class="aai-breadcrumb-link"> About Us </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="eicon2 ">
-                    <div class="row d-flex">
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb End -->
 
-                        <div class="col-md-3">
-                            <img src="assets/img/eicon2.png" alt="">
-                        </div>
-                        <div class="col-md-5 ">
-                            <p>Explore Offers</p>
-                        </div>
+    <section class="topp">
+        <div class="container">
+            <h1 class=" text-center" style="font-weight: 700;"><span class="gradient-text">ProSoft</span></h1>
+            <h1 class=" text-center" style="font-weight: 700;color:white;">Revolutionizing <br>
+                Healthcare Management.</h1>
 
-                    </div>
+            <p class="text-center mt-md-5 mt-3 wdd" style="max-width: 90%;margin:auto; color:white;">PROSOFT is a state certified provider of
+                Healthcare services. Founded in 2007 In INDIA with the idea of easing the stress on Healthcare services and with
+                the goal of providing easy and best solutions forever. Our goal is to create a collaborative plan that will allow
+                the Health sector to maintain security if possible while maintaining their level of independence and functioning.
+            </p>
+
+            <div class="row my-md-2 mt-3 " style="    justify-content: center;">
+
+                <div class="col-md-7">
+                    <ul class="aai-list-items mt-4 text-center">
+                        <li class="aai-list-item d-flex align-items-center">
+                            <svg
+                                class="flex-shrink-0"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="24" height="24" rx="12" fill="#EDCB88" />
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M17.8047 7.52876C18.0651 7.78911 18.0651 8.21122 17.8047 8.47157L10.4714 15.8049C10.2111 16.0653 9.78894 16.0653 9.5286 15.8049L6.19526 12.4716C5.93491 12.2112 5.93491 11.7891 6.19526 11.5288C6.45561 11.2684 6.87772 11.2684 7.13807 11.5288L10 14.3907L16.8619 7.52876C17.1223 7.26841 17.5444 7.26841 17.8047 7.52876Z"
+                                    fill="#04091E" />
+                            </svg>
+
+                            <span class="aai-list-item-text">High return on investment with low total cost of ownership</span>
+                        </li>
+                        <li class="aai-list-item d-flex align-items-center">
+                            <svg
+                                class="flex-shrink-0"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="24" height="24" rx="12" fill="#EDCB88" />
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M17.8047 7.52876C18.0651 7.78911 18.0651 8.21122 17.8047 8.47157L10.4714 15.8049C10.2111 16.0653 9.78894 16.0653 9.5286 15.8049L6.19526 12.4716C5.93491 12.2112 5.93491 11.7891 6.19526 11.5288C6.45561 11.2684 6.87772 11.2684 7.13807 11.5288L10 14.3907L16.8619 7.52876C17.1223 7.26841 17.5444 7.26841 17.8047 7.52876Z"
+                                    fill="#04091E" />
+                            </svg>
+                            <span class="aai-list-item-text">Solutions to strengthen core functions for greater impact</span>
+                        </li>
+                        <li class="aai-list-item d-flex align-items-center">
+                            <svg
+                                class="flex-shrink-0"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="24" height="24" rx="12" fill="#EDCB88" />
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M17.8047 7.52876C18.0651 7.78911 18.0651 8.21122 17.8047 8.47157L10.4714 15.8049C10.2111 16.0653 9.78894 16.0653 9.5286 15.8049L6.19526 12.4716C5.93491 12.2112 5.93491 11.7891 6.19526 11.5288C6.45561 11.2684 6.87772 11.2684 7.13807 11.5288L10 14.3907L16.8619 7.52876C17.1223 7.26841 17.5444 7.26841 17.8047 7.52876Z"
+                                    fill="#04091E" />
+                            </svg>
+                            <span class="aai-list-item-text">On-time, on-budget project delivery</span>
+                        </li>
+                    </ul>
                 </div>
 
             </div>
+
         </div>
+    </section>
+
+
+    <!-- our clients -->
+    <section class="top1 py-5 my-5" style="background-color:#6b7378;">
+        <div class="" style="max-width: 90%;margin:auto;">
+            <div class="row d-flex justify-content-around">
+                <div class="col-md-3">
+                    <h1 class="gradient-text" style="font-weight:800;">65</h1>
+                    <h4 style="color:#212529;font-weight:500;">Happy Clients</h4>
+                </div>
+                <div class="col-md-3 ">
+                    <h1 class="gradient-text" style="font-weight:800;">85</h1>
+                    <h4 style="color: #212529;font-weight:500;">Projects</h4>
+                </div>
+                <div class="col-md-3 ">
+                    <h1 class="gradient-text" style="font-weight:800;">18</h1>
+                    <h4 style="color:#212529;font-weight:500;">Years of <br>
+                        experience</h4>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- our clients -->
+
+    <!-- prosoft edge -->
+    <section
+        class="aai-features"
+        style="
+          background: url('assets/img/bg/aai-feature-bg.jpeg') no-repeat center
+            center/cover;
+        ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8">
+                    <div class="aai-section-title mb-3 text-center mb-5">
+                        <h2 class="section-title"><span class="gradient-text">Prosoft’s</span> Edge
+                        </h2>
+                        <p class="section-desc">
+                            PROSOFT having head office in “INDIA” having installations in other countries like Kuwait, Qutar, Maldives, and Singapore, UAE.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-around">
+                <div
+                    class="col-lg-5 col-md-6 mb-4"
+                    data-aos="fade-up"
+                    data-aos-delay="50">
+                    <div class="aai-feature-box">
+                        <div
+                            class="aai-feature-box-inner d-flex flex-column align-items-center">
+                            <div>
+                                <img src="assets/image/edge1.png" class="aai-feature-icon img-fluid" alt="" />
+                            </div>
+                            <h3 class="aai-feature-title">Detailed Insights</h3>
+                            <p class="aai-feature-desc">
+                                Generate insight on customer behavior for your sales team.
+                            </p>
+                            <a href="services-details.html" class="aai-feature-link">
+                                <svg
+                                    width="37"
+                                    height="13"
+                                    viewBox="0 0 37 13"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M29.375 1L35.055 6.27428L29.375 11.9543"
+                                        stroke="currentColor"
+                                        stroke-opacity="0.80"
+                                        stroke-width="1.52"
+                                        stroke-linecap="round" />
+                                    <path
+                                        d="M34 6.25L1 6.25"
+                                        stroke="currentColor"
+                                        stroke-opacity="0.80"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col-lg-5 col-md-6 mb-4"
+                    data-aos="fade-up"
+                    data-aos-delay="60">
+                    <div class="aai-feature-box">
+                        <div
+                            class="aai-feature-box-inner d-flex flex-column align-items-center">
+                            <div>
+                            <img src="assets/image/edge2.png" class="aai-feature-icon img-fluid" alt="" />
+                            </div>
+                            <h3 class="aai-feature-title">Customer Experience</h3>
+                            <p class="aai-feature-desc">
+                                Enables you to deliver an outstanding customer experience.
+                            </p>
+                            <a href="services-details.html" class="aai-feature-link">
+                                <svg
+                                    width="37"
+                                    height="13"
+                                    viewBox="0 0 37 13"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M29.375 1L35.055 6.27428L29.375 11.9543"
+                                        stroke="currentColor"
+                                        stroke-opacity="0.80"
+                                        stroke-width="1.52"
+                                        stroke-linecap="round" />
+                                    <path
+                                        d="M34 6.25L1 6.25"
+                                        stroke="currentColor"
+                                        stroke-opacity="0.80"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col-lg-5 col-md-6 mb-4"
+                    data-aos="fade-up"
+                    data-aos-delay="70">
+                    <div class="aai-feature-box">
+                        <div
+                            class="aai-feature-box-inner d-flex flex-column align-items-center">
+                            <div>
+                            <img src="assets/image/edge3.png" class="aai-feature-icon img-fluid" alt="" />
+                            </div>
+                            <h3 class="aai-feature-title">Effective Tracking</h3>
+                            <p class="aai-feature-desc">
+                           Track effictiveness of activities and campaigns.
+                            </p>
+                            <a href="services-details.html" class="aai-feature-link">
+                                <svg
+                                    width="37"
+                                    height="13"
+                                    viewBox="0 0 37 13"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M29.375 1L35.055 6.27428L29.375 11.9543"
+                                        stroke="currentColor"
+                                        stroke-opacity="0.80"
+                                        stroke-width="1.52"
+                                        stroke-linecap="round" />
+                                    <path
+                                        d="M34 6.25L1 6.25"
+                                        stroke="currentColor"
+                                        stroke-opacity="0.80"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col-lg-5 col-md-6 mb-4"
+                    data-aos="fade-up"
+                    data-aos-delay="80">
+                    <div class="aai-feature-box">
+                        <div
+                            class="aai-feature-box-inner d-flex flex-column align-items-center">
+                            <div>
+                            <img src="assets/image/edge4.png" class="aai-feature-icon img-fluid" alt="" />
+                            </div>
+                            <h3 class="aai-feature-title">Collaborations</h3>
+                            <p class="aai-feature-desc">
+                            Facilitates collaboration between team members
+                            </p>
+                            <a href="services-details.html" class="aai-feature-link">
+                                <svg
+                                    width="37"
+                                    height="13"
+                                    viewBox="0 0 37 13"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M29.375 1L35.055 6.27428L29.375 11.9543"
+                                        stroke="currentColor"
+                                        stroke-opacity="0.80"
+                                        stroke-width="1.52"
+                                        stroke-linecap="round" />
+                                    <path
+                                        d="M34 6.25L1 6.25"
+                                        stroke="currentColor"
+                                        stroke-opacity="0.80"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+             
+            </div>
+            <div class="text-center my-5" data-aos="fade-up" data-aos-delay="110">
+                <!-- <a href="services-details.html" class="aai-btn btn-pill-solid"> See More</a> -->
+            </div>
+        </div>
+    </section>
+    <!-- prosoft edge -->
+
+    <!-- value Start -->
+    <section class="aai-services">
+
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-7">
+                    <div>
+                        <h2 class="section-title mb-4">
+                            Value
+                            Proposition
+                        </h2>
+                        <!-- <p class="section-desc">
+                                We've done it carefully and simply. Combined with the
+                                ingredients makes for beautiful landings.
+                            </p> -->
+                        <ul class="aai-list-items mt-4">
+                            <li class="aai-list-item d-flex align-items-center">
+                                <svg
+                                    class="flex-shrink-0"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="24" height="24" rx="12" fill="#EDCB88" />
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M17.8047 7.52876C18.0651 7.78911 18.0651 8.21122 17.8047 8.47157L10.4714 15.8049C10.2111 16.0653 9.78894 16.0653 9.5286 15.8049L6.19526 12.4716C5.93491 12.2112 5.93491 11.7891 6.19526 11.5288C6.45561 11.2684 6.87772 11.2684 7.13807 11.5288L10 14.3907L16.8619 7.52876C17.1223 7.26841 17.5444 7.26841 17.8047 7.52876Z"
+                                        fill="#04091E" />
+                                </svg>
+
+                                <span class="aai-list-item-text">High return on investment with low total cost of ownership</span>
+                            </li>
+                            <li class="aai-list-item d-flex align-items-center">
+                                <svg
+                                    class="flex-shrink-0"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="24" height="24" rx="12" fill="#EDCB88" />
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M17.8047 7.52876C18.0651 7.78911 18.0651 8.21122 17.8047 8.47157L10.4714 15.8049C10.2111 16.0653 9.78894 16.0653 9.5286 15.8049L6.19526 12.4716C5.93491 12.2112 5.93491 11.7891 6.19526 11.5288C6.45561 11.2684 6.87772 11.2684 7.13807 11.5288L10 14.3907L16.8619 7.52876C17.1223 7.26841 17.5444 7.26841 17.8047 7.52876Z"
+                                        fill="#04091E" />
+                                </svg>
+                                <span class="aai-list-item-text">Solutions to strengthen core functions for greater impact</span>
+                            </li>
+                            <li class="aai-list-item d-flex align-items-center">
+                                <svg
+                                    class="flex-shrink-0"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="24" height="24" rx="12" fill="#EDCB88" />
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M17.8047 7.52876C18.0651 7.78911 18.0651 8.21122 17.8047 8.47157L10.4714 15.8049C10.2111 16.0653 9.78894 16.0653 9.5286 15.8049L6.19526 12.4716C5.93491 12.2112 5.93491 11.7891 6.19526 11.5288C6.45561 11.2684 6.87772 11.2684 7.13807 11.5288L10 14.3907L16.8619 7.52876C17.1223 7.26841 17.5444 7.26841 17.8047 7.52876Z"
+                                        fill="#04091E" />
+                                </svg>
+                                <span class="aai-list-item-text">On-time, on-budget project delivery</span>
+                            </li>
+                            <li class="aai-list-item d-flex align-items-center">
+                                <svg
+                                    class="flex-shrink-0"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="24" height="24" rx="12" fill="#EDCB88" />
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M17.8047 7.52876C18.0651 7.78911 18.0651 8.21122 17.8047 8.47157L10.4714 15.8049C10.2111 16.0653 9.78894 16.0653 9.5286 15.8049L6.19526 12.4716C5.93491 12.2112 5.93491 11.7891 6.19526 11.5288C6.45561 11.2684 6.87772 11.2684 7.13807 11.5288L10 14.3907L16.8619 7.52876C17.1223 7.26841 17.5444 7.26841 17.8047 7.52876Z"
+                                        fill="#04091E" />
+                                </svg>
+                                <span class="aai-list-item-text">100% total maintenance support</span>
+                            </li>
+                            <li class="aai-list-item d-flex align-items-center">
+                                <svg
+                                    class="flex-shrink-0"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="24" height="24" rx="12" fill="#EDCB88" />
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M17.8047 7.52876C18.0651 7.78911 18.0651 8.21122 17.8047 8.47157L10.4714 15.8049C10.2111 16.0653 9.78894 16.0653 9.5286 15.8049L6.19526 12.4716C5.93491 12.2112 5.93491 11.7891 6.19526 11.5288C6.45561 11.2684 6.87772 11.2684 7.13807 11.5288L10 14.3907L16.8619 7.52876C17.1223 7.26841 17.5444 7.26841 17.8047 7.52876Z"
+                                        fill="#04091E" />
+                                </svg>
+                                <span class="aai-list-item-text">Customizable solutions</span>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-lg-5 mt-5 mt-lg-0" data-aos="fade-right">
+                    <div class="mt-5">
+                        <img src="assets/image/value.png" class="img-fluid" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- value End -->
+
+
+    
+<!-- trusted -->
+<section class="mt-5">
+  <div class="container">
+    <h1 class=" text-center" style="font-weight: 700; color:white;">Trusted by Leading Healthcare<br> Providers Worldwide.</h1>
+  </div>
+  <div class="row mt-md-5 mt-3 ">
+    <div class="image-slider">
+      <!-- <button class="prev-arrow px-5">❮</button> -->
+      <div class="slider-container">
+        <img src="assets/img/trust1.png" alt="Image 1">
+        <img src="assets/img/trust2.png" alt="Image 2">
+        <img src="assets/img/trust3.png" alt="Image 3">
+        <img src="assets/img/trust1.png" alt="Image 4">
+        <img src="assets/img/trust2.png" alt="Image 5">
+        <img src="assets/img/trust3.png" alt="Image 6">
+      </div>
+      <!-- <button class="next-arrow px-5">❯</button> -->
     </div>
+
+
+  </div>
 </section>
-<!-- Explore -->
 
+<!-- trusted -->
 
-
-
-<!-- mission and vision -->                
-<section class="space mb-3 mi-vi">
-    <div class="row ">
-        <div class="col-md-12">
-            <img src="assets/img/mission.png" alt=""style="width:100%; " >
-        </div>
-    </div>
-    <div class="container">
-        <div class="row d-flex">
-            <div class="col-md-4 mission">
-                <p class="t2">Our Mission</p>
-                <p class="ppara">Our mission is to revolutionize practice management through innovation, delivering powerful tools that optimize workflows, enhance patient experiences, and improve overall practice efficiency.
-                </p>
-            </div>
-            <div class="col-md-6"></div>
-        </div>
-        <div class="row d-flex">
-            <div class="col-md-7"></div>
-            <div class="col-md-4 vision">
-                <p class="t2">Our Vision</p>
-                <p class="ppara">To empower healthcare professionals with an AI-driven clinic management suite that ensures seamless patient care, strict data privacy, and supports clinics in building their brand and growing their practice.
-                </p>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-<!-- mission and vision -->
-
-
-
-<!-- join -->
-
-
-<section class="noTop ">
-    <div class="container">
-        <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-md-11 text-center">
-                <p class="t2">Join the growing number of professionals who <br> are transforming their practices with <br> Aesthetic AI.</p>
-            </div>
-        </div>
-        <div class="row d-flex justify-content-center align-items-center pt-2 pt-md-0">
-            <div class="col-md-4 d-flex justify-content-evenly align-items-center ">
-                <div class="col-md-5"> <a class="black" href=" ">Let's Connect</a></div>
-                <div class="col-md-5"> <a class="gradient-border" href=" "><img src="assets/img/demo.png" alt="">Get a Demo</a></div>
-
-
-            </div>
-        </div>
-    </div>
-
-</section>
-<!-- join -->
+</main>
