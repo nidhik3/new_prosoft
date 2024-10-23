@@ -130,20 +130,14 @@
                  <nav class="aai-footer-nav">
                    <h3 class="aai-footer-nav-title">Useful Links</h3>
                    <ul class="aai-footer-nav-list">
+                    
                      <li class="aai-footer-nav-list-item">
-                       <a href="services1" class="aai-footer-nav-link"> Accreditation
-                         info </a>
-                     </li>
-                     <li class="aai-footer-nav-list-item">
-                       <a href="services.html" class="aai-footer-nav-link">Accreditation Process </a>
-                     </li>
-                     <li class="aai-footer-nav-list-item">
-                       <a href="services.html" class="aai-footer-nav-link">
+                       <a href="privacy" class="aai-footer-nav-link">
                          Privacy Policy
                        </a>
                      </li>
                      <li class="aai-footer-nav-list-item">
-                       <a href="services.html" class="aai-footer-nav-link">Terms & Services </a>
+                       <a href="terms" class="aai-footer-nav-link">Terms & Services </a>
                      </li>
                    </ul>
                  </nav>

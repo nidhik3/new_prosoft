@@ -3,7 +3,7 @@
       <section
           class="aai-breadcrumb"
           style="
-          background: url('assets/img/bg/bread-crumb-bg.jpeg') no-repeat center
+          background: url('assets/image/banner.jpeg') no-repeat center
             center/cover;
         ">
           <div class="container">
@@ -46,7 +46,7 @@
 
       <!-- Contact Form Start-->
       <section class="aai-contact-form">
-          <div class="container">
+          <div class="container pt-5">
               <div class="row g-5 align-items-center justify-content-between">
                   <div class="col-xl-6 col-lg pe-lg-5">
                       <div>

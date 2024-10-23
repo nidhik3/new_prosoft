@@ -3,7 +3,7 @@
     <section
         class="aai-breadcrumb"
         style="
-          background: url('assets/img/bg/bread-crumb-bg.jpeg') no-repeat center
+          background: url('assets/image/banner.jpeg') no-repeat center
             center/cover;
         ">
         <div class="container">
@@ -45,20 +45,27 @@
     <!-- Breadcrumb End -->
 
     <section class="topp">
-        <div class="container">
-            <h1 class=" text-center" style="font-weight: 700;"><span class="gradient-text">ProSoft</span></h1>
-            <h1 class=" text-center" style="font-weight: 700;color:white;">Revolutionizing <br>
+        <div class="container pt-3">
+            <h1 class=" text-center" style="font-weight: 700; color:white;"><span class="gradient-text">ProSoft </span>Revolutionizing</h1>
+            <h1 class=" text-center" style="font-weight: 700;color:white;">
                 Healthcare Management.</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class=" text-center mt-md-3 mt-3 wdd" style="margin:auto; color:white;">PROSOFT is a state certified provider of
+                        Healthcare services. Founded in 2007 In INDIA with the idea of easing the stress on Healthcare services and with
+                        the goal of providing easy and best solutions forever. Our goal is to create a collaborative plan that will allow
+                        the Health sector to maintain security if possible while maintaining their level of independence and functioning.
+                    </p>
+                </div>
+            </div>
 
-            <p class="text-center mt-md-5 mt-3 wdd" style="max-width: 90%;margin:auto; color:white;">PROSOFT is a state certified provider of
-                Healthcare services. Founded in 2007 In INDIA with the idea of easing the stress on Healthcare services and with
-                the goal of providing easy and best solutions forever. Our goal is to create a collaborative plan that will allow
-                the Health sector to maintain security if possible while maintaining their level of independence and functioning.
-            </p>
 
-            <div class="row my-md-2 mt-3 " style="    justify-content: center;">
+            <div class="row my-md-2 mt-3 pt-3 ">
+            <div class="col-md-5">
+                    <img src="assets/image/about1.jpeg" alt="" style="max-width: 100%;">
+                </div>
 
-                <div class="col-md-7">
+                <div class="col-md-7 ">
                     <ul class="aai-list-items mt-4 text-center">
                         <li class="aai-list-item d-flex align-items-center">
                             <svg
@@ -114,7 +121,7 @@
                         </li>
                     </ul>
                 </div>
-
+             
             </div>
 
         </div>
@@ -211,7 +218,7 @@
                         <div
                             class="aai-feature-box-inner d-flex flex-column align-items-center">
                             <div>
-                            <img src="assets/image/edge2.png" class="aai-feature-icon img-fluid" alt="" />
+                                <img src="assets/image/edge2.png" class="aai-feature-icon img-fluid" alt="" />
                             </div>
                             <h3 class="aai-feature-title">Customer Experience</h3>
                             <p class="aai-feature-desc">
@@ -249,11 +256,11 @@
                         <div
                             class="aai-feature-box-inner d-flex flex-column align-items-center">
                             <div>
-                            <img src="assets/image/edge3.png" class="aai-feature-icon img-fluid" alt="" />
+                                <img src="assets/image/edge3.png" class="aai-feature-icon img-fluid" alt="" />
                             </div>
                             <h3 class="aai-feature-title">Effective Tracking</h3>
                             <p class="aai-feature-desc">
-                           Track effictiveness of activities and campaigns.
+                                Track effictiveness of activities and campaigns.
                             </p>
                             <a href="services-details.html" class="aai-feature-link">
                                 <svg
@@ -287,11 +294,11 @@
                         <div
                             class="aai-feature-box-inner d-flex flex-column align-items-center">
                             <div>
-                            <img src="assets/image/edge4.png" class="aai-feature-icon img-fluid" alt="" />
+                                <img src="assets/image/edge4.png" class="aai-feature-icon img-fluid" alt="" />
                             </div>
                             <h3 class="aai-feature-title">Collaborations</h3>
                             <p class="aai-feature-desc">
-                            Facilitates collaboration between team members
+                                Facilitates collaboration between team members
                             </p>
                             <a href="services-details.html" class="aai-feature-link">
                                 <svg
@@ -317,7 +324,7 @@
                         </div>
                     </div>
                 </div>
-             
+
             </div>
             <div class="text-center my-5" data-aos="fade-up" data-aos-delay="110">
                 <!-- <a href="services-details.html" class="aai-btn btn-pill-solid"> See More</a> -->
@@ -444,30 +451,30 @@
     <!-- value End -->
 
 
-    
-<!-- trusted -->
-<section class="mt-5">
-  <div class="container">
-    <h1 class=" text-center" style="font-weight: 700; color:white;">Trusted by Leading Healthcare<br> Providers Worldwide.</h1>
-  </div>
-  <div class="row mt-md-5 mt-3 ">
-    <div class="image-slider">
-      <!-- <button class="prev-arrow px-5">❮</button> -->
-      <div class="slider-container">
-        <img src="assets/img/trust1.png" alt="Image 1">
-        <img src="assets/img/trust2.png" alt="Image 2">
-        <img src="assets/img/trust3.png" alt="Image 3">
-        <img src="assets/img/trust1.png" alt="Image 4">
-        <img src="assets/img/trust2.png" alt="Image 5">
-        <img src="assets/img/trust3.png" alt="Image 6">
-      </div>
-      <!-- <button class="next-arrow px-5">❯</button> -->
-    </div>
+
+    <!-- trusted -->
+    <section class="mt-5">
+        <div class="container">
+            <h1 class=" text-center" style="font-weight: 700; color:white;">Trusted by Leading Healthcare<br> Providers Worldwide.</h1>
+        </div>
+        <div class="row mt-md-5 mt-3 ">
+            <div class="image-slider">
+                <!-- <button class="prev-arrow px-5">❮</button> -->
+                <div class="slider-container">
+                    <img src="assets/img/trust1.png" alt="Image 1">
+                    <img src="assets/img/trust2.png" alt="Image 2">
+                    <img src="assets/img/trust3.png" alt="Image 3">
+                    <img src="assets/img/trust1.png" alt="Image 4">
+                    <img src="assets/img/trust2.png" alt="Image 5">
+                    <img src="assets/img/trust3.png" alt="Image 6">
+                </div>
+                <!-- <button class="next-arrow px-5">❯</button> -->
+            </div>
 
 
-  </div>
-</section>
+        </div>
+    </section>
 
-<!-- trusted -->
+    <!-- trusted -->
 
 </main>

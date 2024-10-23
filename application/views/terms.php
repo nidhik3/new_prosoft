@@ -1,141 +1,44 @@
-<style>
-  .hero {
-    background-color: #1A406D;
-    color: white;
-    padding: 100px 15px;
-    text-align: center;
-  }
+<section class="privacy-policy py-5" style=" background-color: #080e26;
+            color: white;">
+             <div class="container pt-120">
+             <h1>Terms and Conditions</h1>
+             <p>Prosoft’s Guidelines for Usage</p>
+        </div>
+        <div class="container">
+            <h2 class="pt-3">1. Acceptance of Terms</h2>
+            <p>By accessing and using Prosoft's services, you agree to comply with these Terms and Conditions. If you do not agree to these terms, you must refrain from using our services.</p>
 
-  h1 {
-    font-weight: 700;
-    margin-bottom: 20px;
-    font-size: 2rem;
-  }
+            <h2 class="pt-3">2. Services Provided</h2>
+            <p>Prosoft provides a variety of software and solutions, including Hospital Information Management Systems, Mobile Solutions, Kiosk Solutions, Website Design & Maintenance, and Third-Party Integrations. By using these services, you agree to the terms and conditions described here.</p>
 
-  h2 {
-    margin-top: 30px;
-    font-size: 1.5rem;
-    font-weight: 500;
-  }
+            <h2 class="pt-3">3. Use of Services</h2>
+            <ul>
+                <li><strong>Authorized Use:</strong> You agree to use Prosoft’s services in accordance with all applicable laws and regulations. Unauthorized use or misuse of Prosoft services will result in the termination of access.</li>
+                <li><strong>Account Security:</strong> You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.</li>
+                <li><strong>Prohibited Actions:</strong> You agree not to misuse our services in any way, including but not limited to attempts to hack, decompile, or reverse-engineer Prosoft’s software, spread malware, or disrupt other users’ experience.</li>
+            </ul>
 
-  p {
-    font-size: 1rem;
-    margin-bottom: 15px;
-  }
+            <h2 class="pt-3">4. Intellectual Property</h2>
+            <p>All content and materials available on Prosoft’s website and services, including but not limited to software, text, graphics, and logos, are the intellectual property of Prosoft unless otherwise stated. Unauthorized use of Prosoft’s intellectual property is strictly prohibited.</p>
 
-  ul {
-    padding-left: 1.5rem;
-  }
+            <h2 class="pt-3">5. Limitation of Liability</h2>
+            <p>Prosoft is not responsible for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use our services, including but not limited to loss of data, financial loss, or service interruptions.</p>
 
-  ul li {
-    margin-bottom: 10px;
-  }
+            <h2 class="pt-3">6. Modifications to Services and Terms</h2>
+            <p>Prosoft reserves the right to modify or discontinue any part of its services at any time without prior notice. We may also update these Terms and Conditions periodically, and it is your responsibility to review these terms for any changes. Continued use of our services implies acceptance of the updated terms.</p>
 
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 1.75rem;
-    }
+            <h2 class="pt-3">7. Governing Law</h2>
+            <p>These Terms and Conditions are governed by the laws of India, and any disputes arising from them will be subject to the exclusive jurisdiction of the courts in India.</p>
 
-    h2 {
-      font-size: 1.25rem;
-    }
+            <h2 class="pt-3">8. Termination</h2>
+            <p>Prosoft reserves the right to suspend or terminate your access to our services at any time if you violate these Terms and Conditions or engage in any activity that disrupts or harms our services or users.</p>
 
-    p {
-      font-size: 0.9rem;
-    }
-
-    .hero {
-      padding: 60px 10px 30px 10px;
-    }
-
-    ul {
-      padding-left: 1rem;
-    }
-  }
-
-  @media (max-width: 576px) {
-    h1 {
-      font-size: 1.5rem;
-    }
-
-    h2 {
-      font-size: 1.1rem;
-    }
-
-    p {
-      font-size: 0.85rem;
-    }
-
-    ul {
-      padding-left: 0.75rem;
-    }
-
-    .btn {
-      font-size: 0.9rem;
-      padding: 8px 16px;
-    }
-  }
-</style>
-<div class="hero">
-  <div class="container">
-    <h1>Terms of Service</h1>
-    <p>By using Aesthetic AI, you agree to the following terms and conditions. Please read them carefully.</p>
-  </div>
-</div>
-
-<div class="container pt-5">
-  <!-- Introduction -->
-  <h2>1. Acceptance of Terms</h2>
-  <p>
-    By accessing or using Aesthetic AI’s services, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.
-  </p>
-
-  <!-- Use of Service -->
-  <h2>2. Use of Service</h2>
-  <p>
-    Aesthetic AI grants you a limited, non-exclusive, non-transferable license to access and use the platform for personal or professional use. You agree not to use the service for any unlawful or prohibited activities.
-  </p>
-
-  <!-- User Accounts -->
-  <h2>3. User Accounts</h2>
-  <p>
-    To access certain features, you may be required to create an account. You agree to provide accurate, complete information and to update it as necessary. You are responsible for maintaining the confidentiality of your account and password.
-  </p>
-
-  <!-- Intellectual Property -->
-  <h2>4. Intellectual Property</h2>
-  <p>
-    All content, software, and other materials available on Aesthetic AI are the intellectual property of Aesthetic AI or its licensors. You may not copy, distribute, or create derivative works based on this content without prior written permission.
-  </p>
-
-  <!-- Payment and Subscriptions -->
-  <h2>5. Payment and Subscriptions</h2>
-  <p>
-    Some features may require payment or a subscription. All payments must be made in accordance with the applicable terms. You agree to pay all fees and applicable taxes incurred by you or anyone using your account.
-  </p>
-
-  <!-- Cancellation and Termination -->
-  <h2>6. Cancellation and Termination</h2>
-  <p>
-    You may cancel your subscription at any time. Aesthetic AI reserves the right to suspend or terminate your account if you violate any of these terms. Any termination of your access to the service will not result in a refund unless otherwise stated.
-  </p>
-
-  <!-- Limitation of Liability -->
-  <h2>7. Limitation of Liability</h2>
-  <p>
-    Aesthetic AI is not responsible for any direct, indirect, incidental, or consequential damages resulting from your use of the platform. This includes but is not limited to, loss of data, profits, or business opportunities.
-  </p>
-
-  <!-- Changes to Terms -->
-  <h2>8. Changes to Terms</h2>
-  <p>
-    We may update these Terms of Service from time to time. Any changes will be posted on this page with an updated date, and your continued use of the service constitutes acceptance of the updated terms.
-  </p>
-
-  <!-- Contact Information -->
-  <h2>9. Contact Us</h2>
-  <p>
-    If you have any questions or concerns about these Terms of Service, please contact us at:
-  </p>
-  <p>Email: <a href="mailto:support@aestheticai.com">support@aestheticai.com</a></p>
-</div>
+            <h2 class="pt-3">9. Contact Us</h2>
+            <p>If you have any questions or concerns regarding these Terms and Conditions, you can contact us at:</p>
+            <ul>
+                <li><strong>Phone:</strong> +91 98765 43210</li>
+                <li><strong>Email:</strong> admin@prosoft.org.in</li>
+                <li><strong>Address:</strong> PROSOFT LLC, Office No 10, Level 1, Sharjah Media City, Sharjah, UAE</li>
+            </ul>
+        </div>
+    </section>
