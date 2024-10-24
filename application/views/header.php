@@ -23,11 +23,11 @@
       <nav class="navbar navbar-expand-xl justify-content-between">
       <div class="plogo col-md-2" >
             <ul>
-              <li class="d-block d-xl-none">
+              <!-- <li class="d-block d-xl-none">
                 <div class="logo">
                   <a href="main"><img src="assets/image/logo.png" alt="" /></a>
                 </div>
-              </li>
+              </li> -->
               <li class="d-flex align-items-center ">
                 <div class="logo">
                   <a href="main"><img src="assets/image/logo.png" alt="" /></a>

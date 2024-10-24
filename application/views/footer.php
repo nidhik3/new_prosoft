@@ -73,16 +73,7 @@
                      Sharjah Media City, Sharjah,UAE</p>
                  </div>
                </div>
-               <div class="aai-social-links d-flex pt-md-3 pt-2">
-                 <a href="http://" target="_blank" rel="noopener noreferrer">
-                   <i class="fa-brands fa-facebook-f"></i>
-                 </a>
-                 <a href="http://" target="_blank" rel="noopener noreferrer">
-                   <i class="fa-brands fa-twitter"></i></a>
-                 <a href="http://" target="_blank" rel="noopener noreferrer">
-                   <i class="fa-brands fa-instagram"></i></a>
-                 <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
-               </div>
+               
              </div>
            </div>
            <div class="col-xl-8 col-lg-8 col-md-12 mt-5 mt-lg-0">
@@ -138,8 +129,21 @@
                      </li>
                      <li class="aai-footer-nav-list-item">
                        <a href="terms" class="aai-footer-nav-link">Terms & Services </a>
+                     </li> 
+                     <li class="aai-footer-nav-list-item">
+                       <a href="contact" class="aai-footer-nav-link">Contact</a>
                      </li>
                    </ul>
+                   <div class="aai-social-links d-flex pt-md-3 pt-2">
+                 <a href="http://" target="_blank" rel="noopener noreferrer">
+                   <i class="fa-brands fa-facebook-f"></i>
+                 </a>
+                 <a href="http://" target="_blank" rel="noopener noreferrer">
+                   <i class="fa-brands fa-twitter"></i></a>
+                 <a href="http://" target="_blank" rel="noopener noreferrer">
+                   <i class="fa-brands fa-instagram"></i></a>
+                 <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+               </div>
                  </nav>
                </div>
 
